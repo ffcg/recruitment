@@ -1,7 +1,7 @@
+using System.Collections.Generic;
+
 namespace Bad.ShoppingCart
 {
-    using System.Collections.Generic;
-
     public class ShoppingCart
     {
         private readonly List<CartItem> _items;
