@@ -6,7 +6,7 @@ namespace Bad.ShoppingCart
     {
         static void Main(string[] args)
         {
-            var shoppingCart = new global::Bad.ShoppingCart.ShoppingCart();
+            var shoppingCart = new ShoppingCart();
 
             shoppingCart.Add(new CartItem());
             shoppingCart.Add(new CartItem());
@@ -14,7 +14,7 @@ namespace Bad.ShoppingCart
             shoppingCart.Add(new CartItem());
             shoppingCart.Add(new CartItem());
 
-            Console.WriteLine("Discount is: {0}", shoppingCart.GetDiscountPercentage());
+            Console.WriteLine($"Discount is: {shoppingCart.GetDiscountPercentage()}");
         }
     }
 }

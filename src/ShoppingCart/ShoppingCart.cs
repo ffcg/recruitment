@@ -4,7 +4,7 @@ namespace Bad.ShoppingCart
 {
     public class ShoppingCart
     {
-        private readonly List<CartItem> _items;
+        private readonly IList<CartItem> _items;
 
         public ShoppingCart()
         {
