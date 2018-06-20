@@ -1,4 +1,8 @@
-﻿using System;
+﻿// me@henriklarsson.eu
+// Bra? Dåligt? You tell me! =[
+// En annan är fortfarande halv-ny, 2 år i branchen.
+
+using System;
 
 namespace TerriBad.ShoppingCart
 {
