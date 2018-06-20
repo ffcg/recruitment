@@ -1,4 +1,8 @@
-SOLID
-=====
+david wallin
+tel: +46707974161
 
-Creds to Jens Pettersson for lettig us use his presentation code! :-)
+det gör ont i hela kroppen att bibehålla det märkliga
+beteendet att inte ge mängdrabatt när antalet varor
+överstiger 14 (aka 15 eller fler).
+
+fy! styggt test.

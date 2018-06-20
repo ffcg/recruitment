@@ -13,18 +13,21 @@ namespace Bad.ShoppingCart
 
         public decimal GetDiscountPercentage()
         {
-            decimal amount = 0;
+            int nofItems = _items.Count;
 
-            if (_items.Count >= 5 && _items.Count < 10)
+            if (nofItems < 5 || nofItems > 14)
             {
-                amount = 10;
-            }
-            else if (_items.Count >= 10 && _items.Count < 15)
-            {
-                amount = 15;
+                return 0m;
             }
 
-            return amount;
+            decimal discount = 10m;
+
+            if (nofItems > 9)
+            {
+                discount += 5m;
+            }
+
+            return discount;
         }
 
         public void Add(CartItem cartItem)
