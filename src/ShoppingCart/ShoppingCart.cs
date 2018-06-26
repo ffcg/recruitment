@@ -20,8 +20,8 @@ namespace Bad.ShoppingCart
            
             /* Standardvärden först och lite felkoll */
             int interval = 5;
-            int maxDiscount = 50 // = 50 vi vill ju inte ge 120% rabatt (se senare) om kunden köper väldigt många varor.
-            int firstDiscountStep = 10
+            int maxDiscount = 50; // = 50 vi vill ju inte ge 120% rabatt (se senare) om kunden köper väldigt många varor.
+            int firstDiscountStep = 10;
             if(discount != null) {
                 int interval = discount.getInterval(); //Från databasmodellen
                 int maxDiscount = discount.getMaxDiscount(); 
