@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Map>
+  <add keyword="Företaget" replaceWith="Forefront"/>
+  <add keyword="applikationerna" replaceWith="systemen"/>
+  <add keyword="annorlunda" replaceWith="tvärtom"/>
+  <add keyword="bra" replaceWith="flexibla"/>
+  <add keyword="offshore" replaceWith="Frontshore"/>
+  <add keyword="China" replaceWith="Kina"/>  
+</Map>

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordReplacer", "WordReplacer\WordReplacer.csproj", "{43DB56AC-7AF2-4075-901A-F7910ABA9D23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7EB1A732-B92B-493A-A9B8-A365FE4DD2A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordReplacerTests", "WordReplacerTests\WordReplacerTests.csproj", "{5BFEDB10-43D5-42DF-8B4F-3E4CF9F645B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43DB56AC-7AF2-4075-901A-F7910ABA9D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DB56AC-7AF2-4075-901A-F7910ABA9D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DB56AC-7AF2-4075-901A-F7910ABA9D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DB56AC-7AF2-4075-901A-F7910ABA9D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFEDB10-43D5-42DF-8B4F-3E4CF9F645B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFEDB10-43D5-42DF-8B4F-3E4CF9F645B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFEDB10-43D5-42DF-8B4F-3E4CF9F645B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFEDB10-43D5-42DF-8B4F-3E4CF9F645B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BFEDB10-43D5-42DF-8B4F-3E4CF9F645B7} = {7EB1A732-B92B-493A-A9B8-A365FE4DD2A2}
+	EndGlobalSection
+EndGlobal
