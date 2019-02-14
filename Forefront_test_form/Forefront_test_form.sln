@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forefront_test_form", "Forefront_test_form\Forefront_test_form.csproj", "{6E82E241-9B49-4208-B513-6008FCE6E157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forefront_test.UnitTests", "Forefront_test.UnitTests\Forefront_test.UnitTests.csproj", "{9DA7C4E6-A8BF-4DBB-82F4-5C571C820548}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E82E241-9B49-4208-B513-6008FCE6E157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E82E241-9B49-4208-B513-6008FCE6E157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E82E241-9B49-4208-B513-6008FCE6E157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E82E241-9B49-4208-B513-6008FCE6E157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA7C4E6-A8BF-4DBB-82F4-5C571C820548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA7C4E6-A8BF-4DBB-82F4-5C571C820548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA7C4E6-A8BF-4DBB-82F4-5C571C820548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA7C4E6-A8BF-4DBB-82F4-5C571C820548}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
